@@ -5,5 +5,5 @@
   task:
   - name: code to install git
     yum:
-    name: git
-    state: present
+     name: git
+     state: present
