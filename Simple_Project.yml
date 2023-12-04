@@ -1,9 +1,8 @@
-# Simple code for project
 -
-  name: Play on simple execution
+  name: play on sample execution
   hosts: pv1
-  task:
-  - name: code to install git
-    yum:
-     name: git
-     state: present
+  tasks:
+   - name: code to install git
+     yum: 
+      name: git
+      state: absent
