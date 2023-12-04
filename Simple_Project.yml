@@ -1,7 +1,7 @@
 # Simple code for project
 -
   name: Play on simple execution
-  host: pv1
+  hosts: pv1
   task:
   - name: code to install git
     yum:
