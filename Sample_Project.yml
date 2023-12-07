@@ -15,5 +15,5 @@
   - name: task to install docker app
     yum: 
      name: docker
-     state: present
+     state: absent
 
