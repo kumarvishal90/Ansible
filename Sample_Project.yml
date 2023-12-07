@@ -1,6 +1,6 @@
 -
   name: play on sample execution
-  hosts: pv1
+  hosts: Node1
   tasks:
    - name: code to install git
      yum: 
