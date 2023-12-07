@@ -1,8 +1,19 @@
+# This is an example on multi structure playbook
 -
-  name: play on sample execution
-  hosts: client1
-  tasks:
-   - name: code to install git
-     yum: 
-      name: git
-      state: absent
+ name: pb on ms
+ hosts: client1
+ tasks:
+  - name: task on install httpd server
+    yum: 
+     name: httpd
+     state: present
+
+-
+ name: pb on ms2
+ hosts: client1
+ tasks: 
+  - name: task to install docker app
+    yum: 
+     name: docker
+     state: present
+
